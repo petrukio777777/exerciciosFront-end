@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #fef5e4;
+}
+
+/* Topo com redes sociais */
+.top-bar {
+  background-color: #5c1f1f;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.social-icons a img {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #ec7fae;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+}
+
+.logo img {
+  height: 70px;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 250px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.btn-login button {
+  background-color: #b4ecff;
+  color: #000;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+/* Carrossel (área azul) */
+.carousel {
+  background-color: #b4e1ff;
+  height: 400px;
+  width: 100%;
+}
+
+/* Parte inferior clara (área branca/bege) */
+.content {
+  background-color: #fef5e4;
+  height: 300px;
+  width: 100%;
+}

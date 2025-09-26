@@ -1,0 +1,25 @@
+@charset "utf-8";
+body{
+    font-family: sans-serif;
+}
+.soPequeno{
+    display: block;
+}
+.soMedio{ 
+    display: none;
+}
+.soGrande{ 
+    display: none;
+}
+article{
+    width: 90%;
+    float: none;
+    margin: auto;
+}
+article img{
+    max-width: 100%;
+
+}
+p{
+    font-size: 1.2em;
+}
